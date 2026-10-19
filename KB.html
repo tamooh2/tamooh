@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مبادرة التيسير الإلكتروني للطلاب</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f9;
+            color: #333;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        header h1 {
+            color: #1e3d59;
+            margin-bottom: 10px;
+        }
+        header p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        .disclaimer-box {
+            background-color: #fff5f5;
+            border-right: 5px solid #e53e3e;
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-align: right;
+            max-width: 800px;
+            margin: 20px auto 0 auto;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .disclaimer-box h4 {
+            color: #c53030;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        .disclaimer-box ul {
+            list-style-type: none;
+            padding-right: 0;
+        }
+        .disclaimer-box li {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #4a5568;
+        }
+        .payment-highlight {
+            background-color: #feebc8;
+            color: #c05621;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            color: #1e3d59;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+        .card p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #17b978;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #118f5c;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎓 مبادرة التيسير الإلكتروني للطلاب</h1>
+        <p>نساعدك في التقديم على المنصات الرسمية بدقة وسهولة لتجنب أخطاء الشبكة والتقنية</p>
+        
+        <!-- صندوق التنويه وإخلاء المسؤولية المضاف -->
+        <div class="disclaimer-box">
+            <h4>⚠️ تنويه هام وإخلاء مسؤولية:</h4>
+            <ul>
+                <li>• <strong>هذا الموقع ليس الموقع الحكومي الأصلي للتقديم أو السداد.</strong></li>
+                <li>• <span class="payment-highlight">رسوم التقديم للمبادرة 20 ألف جنيه سوداني</span>، يرجى إرسال الإشعار إلى الحساب التالي: <strong>{ 3778592 - خالد الواثق صباح الخير }</strong> وتجهيز صورة الإشعار لرفعها في الفرد الحقول داخل الاستمارة.</li>
+                <li>• دورنا ينحصر فقط في أخذ البيانات المرفقة (رقم الجلوس ورقم الفاتورة) والتقديم لك مباشرة عبر البوابة الرسمية لوزارة التعليم العالي نيابة عنك.</li>
+                <li>• بمجرد اكتمال عملية التقديم بنجاح على الموقع الرسمي، سنقوم بإرسال نسخة أو لقطة شاشة من إيصال التقديم النهائي الذي يحتوي على رغباتك عبر رقم الواتساب الذي ستتركه في أسفل الاستمارة.</li>
+                <li>• <em>إذا كنت توافق على تفويضنا بالتقديم لك عبر الموقع الرسمي بناءً على هذه الشروط، يرجى اختيار الاستمارة المناسبة وتعبئتها بالأسفل.</em></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- الكارد الأول: تقديم الجامعات -->
+        <div class="card">
+            <div>
+                <div class="card-icon">🏛️</div>
+                <h3>تقديم الجامعات السودانية</h3>
+                <p>اضغط هنا لإدخال رقم الجلوس ورقم الفاتورة وترتيب رغباتك الجامعية لنقوم بالتقديم لك فوراً.</p>
+            </div>
+            <a href="https://forms.gle/4aZ8hjvrmeZa64AC8" target="_blank" class="btn">ابدأ التقديم الآن</a>
+        </div>
+
+        <!-- الكارد الثاني: القبول الخاص الحكومي الشهادة السودانية -->
+        <div class="card">
+            <div>
+                <div class="card-icon">📘</div>
+                <h3>استمارة القبول الخاص الحكومي الشهادة السودانية</h3>
+                <p>رسوم الاستمارة الرسمية للوزارة: 40 ألف جنيه سوداني.</p>
+            </div>
+            <a href="https://forms.gle/v2BKVtmygnS4ZhF27" target="_blank" class="btn">ابدأ التقديم الآن</a>
+        </div>
+
+        <!-- الكارد الثالث: دليل القبول PDF -->
+        <div class="card">
+            <div>
+                <div class="card-icon">📘</div>
+                <h3>دليل القبول والنسب للجامعات</h3>
+                <p>تحميل وقراءة الدليل الرسمي لوزارة التعليم العالي لمعرفة التخصصات والنسب المطلوبة هذا العام.</p>
+            </div>
+            <a href="https://drive.google.com/file/d/1SodAXujb83KhJiOUOWe3mp2pzLaufhbw/view?usp=drive_link" target="_blank" class="btn" style="background-color: #1e3d59;">تحميل الدليل (PDF)</a>
+        </div>
+
+        <!-- الكارد الرابع: أبناء العاملين -->
+        <div class="card">
+            <div>
+                <div class="card-icon">📘</div>
+                <h3>استمارة القبول الخاص الحكومي أبناء العاملين</h3>
+                <p>رسوم الاستمارة الرسمية للوزارة: 20 ألف جنيه سوداني.</p>
+            </div>
+            <a href="https://forms.gle/c23w7NSv6cm9PqH69" target="_blank" class="btn">ابدأ التقديم الآن</a>
+        </div>
+
+        <!-- الكارد الخامس: الشهادة الأجنبية والعربية -->
+        <div class="card">
+            <div>
+                <div class="card-icon">📘</div>
+                <h3>استمارة القبول الخاص الحكومي الشهادة الأجنبية والعربية</h3>
+                <p>رسوم الاستمارة الرسمية للوزارة: 40 ألف جنيه سوداني.</p>
+            </div>
+            <a href="https://forms.gle/LkLCi4dZd8RdsoLn7" target="_blank" class="btn">ابدأ التقديم الآن</a>
+        </div>
+
+        <!-- الكارد السادس: الشهادة الأجنبية والعربية أبناء العاملين -->
+        <div class="card">
+            <div>
+                <div class="card-icon">📘</div>
+                <h3>استمارة القبول الخاص الحكومي الشهادة الأجنبية والعربية لأبناء العاملين</h3>
+                <p>رسوم الاستمارة الرسمية للوزارة: 20 ألف جنيه سوداني.</p>
+            </div>
+            <a href="https://forms.gle/4RBX9MoEeGz4i9HL8" target="_blank" class="btn">ابدأ التقديم الآن</a>
+        </div>
+
+        <!-- الكارد السابع: الشهادات الأجنبية بالدولار -->
+        <div class="card">
+            <div>
+                <div class="card-icon">💵</div>
+                <h3>استمارة الشهادات الأجنبية</h3>
+                <p>رسوم الاستمارة الرسمية للوزارة: 300 دولار.</p>
+            </div>
+            <a href="https://forms.gle/VDrWjivi2t9uFTi16" target="_blank" class="btn">ابدأ التقديم الآن</a>
+        </div>
+    </div>
+
+</body>
+</html>
